@@ -1,0 +1,20 @@
+h1{
+	text-align: center;
+	color: orange;
+	text-decoration: underline;
+	font-size: 40px;
+}
+div{
+background:#ff7f00;
+width: 280px;
+position:absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+border-radius: 10px;
+width: 400px;
+}
+div h2{ 
+text-align: center;
+color: deepskyblue;
+ }

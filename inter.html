@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>smart parking </title>
+</head>
+<link rel="stylesheet" type="text/css" href="inter.css">
+<script type="text/javascript" >
+    function enregister(){
+   
+        document.getElementById('for').hidden=true;
+        f2.hidden=false;
+    
+  } 
+</script>
+<body>
+  	<div class="box"> 
+    <img src="user .jpg"  >
+        <form name="f1" method="post" action="ex.php">
+        <h3>.</h3>
+        <div id="for">
+        <h1>connexion </h1>
+      
+          
+      		<div class="txt">
+           <input type="email" id="mail"name="temail" required>
+           <span></span>
+           <label>login:</label>
+         </div>
+          <div class="txt"> 
+            <input type="password" id="ps"name="tps" required>
+             <span></span>
+      		  <label>password:</label>
+           </div>
+         </div>
+         <input type="submit" value="s'authentifier"name="cnx">
+         <input type="submit" value="s'enregister"name="cnx1" onclick="enregister()"> 
+         <h3>mot de passe oublier</h3>
+        </form> 
+   </div>
+<div class="box"> 
+
+  <form name="f2" hidden=""method="post" action="inter.php">
+     <h1 >S'inscrire</h1>
+    <div class="txt">
+    <input type="text" name="tcin"  required>
+     <span></span>
+    <label>CIN:</label>
+     </div>
+    <div class="txt">
+    <input type="text" name="tfn" required>
+     <span></span>
+    <label>First Name:</label>
+     </div>
+    <div class="txt">
+    <input type="text" name="tln" required>
+     <span></span>
+    <label>Last Name:</label>
+     </div>
+     <div class="txt">
+    <input type="text" name="tph" required>
+     <span></span>
+    <label>Phone:</label>
+     </div>
+     <div class="txt">
+    <input type="text" name="tmat" required>
+     <span></span>
+    <label>Matricule:</label>
+     </div>
+     <div class="txt">
+    <input type="email" name="tlog" required>
+     <span></span>
+    <label>Login:</label>
+     </div>
+     <div class="txt">
+    <input type="password" name="tp" required>
+    <label>Password:</label>
+     </div>
+         <input type="submit" value="s'inscrire"name="cnx1" onclick="Sinscrire()"> 
+      	
+ 	</form>
+ </div>
+</body>
+</html>

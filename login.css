@@ -1,0 +1,51 @@
+input {
+  		background:#29ab87 ;
+  		border: none;
+  	}
+header {
+	background: #29ab87;
+	border: #666;
+}
+frame{
+	border: none;
+}
+
+*{
+margin: 0;
+padding: 0;
+list-style: none;
+text-decoration: none;
+}
+.bar{
+	position: fixed;
+	left: 0;
+	height: 100%;
+	width: 250px;
+	background:#ff7f00;
+}
+.bar h1{
+	font-size: 22px;
+	color:white ;
+	text-align: center;
+	line-height: 50px;
+	width: 250px;
+	background: #db7032;
+	user-select: none;
+}
+.bar ul a{
+	display: block;
+	height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: white;
+    padding-left: 30px;
+    box-sizing: border-box;
+    border-top:1px solid rgba(255,255,255,.1) ;
+    border-bottom: 1px solid black;
+    transition: .4s;
+}
+ul li:hover a{
+	padding-left: 35px;
+}
+ 

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+  	<link rel="stylesheet" type="text/css" href="ajoutparking.css">
+<body>
+<div class="box"> 
+
+  <form name="f" method="post" action="supprimervoiture.php">
+    <h1 >Supprimer voiture </h1>
+    <div class="txt">
+ 		<input type="text" name="tcin"  required>
+     <span></span>
+    <label>CIN:</label>
+     </div>
+        <div class="txt">
+ 		<input type="text" name="mat" required>
+     <span></span>
+ 		<label>Matricule:</label>
+     </div>
+        <input type="submit" value="Supprimer"name="cnx1" onclick="Supprimer()"> 
+      	<input type="submit" value="Annuler"name="cnx"> 
+  </form>
+</body>
+</html>

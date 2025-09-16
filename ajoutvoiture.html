@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<link rel="stylesheet" type="text/css" href="ajoutparking.css">
+<body>
+<div class="box"> 
+
+  <form name="f" method="post" action="ajoutvoiture.php">
+    <h1 >Ajouter voiture </h1>
+    <div class="txt">
+ 		<input type="text" name="tcin"  required>
+     <span></span>
+    <label>CIN:</label>
+     </div>
+
+      
+      <div class="txt">
+ 		<input type="text" name="label" required>
+     <span></span>
+ 		<label>Label:</label>
+     </div>
+        <div class="txt">
+ 		<input type="text" name="mat" required>
+     <span></span>
+ 		<label>Matricule:</label>
+     </div>
+     <div class="txt">
+ 		<input type="text" name="marq" required>
+     <span></span>
+ 		<label>Marque:</label>
+     </div>
+      <div class="txt">
+    <input type="text" name="couleur" required>
+     <span></span>
+    <label>couleur:</label>
+     </div>
+     <div class="txt">
+ 		<input type="text" name="puis" required>
+     <span></span>
+ 		<label>Puissance:</label>
+     </div>
+     <div class="txt">
+ 		<input type="text" name="mod" required>
+     <span></span>
+ 		<label>Modéle:</label>
+     </div>
+     <div class="txt">
+ 		<input type="text" name="nb" required>
+     <span></span>
+ 		<label>Nombre de place:</label>
+     </div>  
+        <input type="submit" value="Ajouter"name="cnx1" onclick="ajout()"> 
+      	<input type="submit" value="Supprimer"name="cnx"> 
+ 	</form>
+ </div>
+</body>
+</html>

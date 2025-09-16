@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<link rel="stylesheet" type="text/css" href="reserveplace.css">
+<body>
+<div class="box"> 
+
+  <form name="f" method="post" action="supprimerplace.php">
+    <h1 >supprimer une place </h1>
+    <div class="txt">
+ 		<input type="text" name="tcin"  required>
+     <span></span>
+    <label>CIN:</label>
+     </div>
+    
+     <div class="txt">
+ 		<input type="text" name="mat" required>
+     <span></span>
+ 		<label>Code reservation:</label>
+     </div>  
+        <input type="submit" value="supprimer"name="cnx1" onclick="supprimer()"> 
+      	<input type="submit" value="annuler"name="cnx"> 
+ 	</form>
+ </div>
+</body>
+</html>

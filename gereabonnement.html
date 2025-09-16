@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Abonnement</title>
+    <link rel="stylesheet" type="text/css" href="abonnement.css">
+    <script lang="javascript" src="abonnement.js"></script>
+</head>
+<body>
+    <form name="f" action="abonnement.php" method="post">
+    <div class="three">
+<div class="box" id="ab1">
+<h1>Abonnement un mois</h1>
+<h2>Ce abonnement vous permet de reserver votre place parking tout le long d'un mois avec un pix de <div>300 Dinar</div><h2>
+<input type="submit" value="commencer"name="ab1" onclick="mois()">
+</div>
+
+<div class="box"  id="ab2">
+<h1>Abonnement trois mois</h1>
+<h2>Ce abonnement vous permet de reserver votre place  parking tout le long du trois mois avec un prix de 
+<div>500 Dinar </div></h2>
+<input type="submit" value="commencer"name="ab2"onclick="troismois()">
+    
+</div>
+
+<div class="box" id="ab3">  
+<h1>Abonnement une annee</h1>
+<h2>Ce abonnement vous permet de reserver votre place parking tout le long du une annee avec un prix de 
+<div>1200 Dinar </div></h2>
+<input type="submit" value="commencer"name="ab3"onclick="annee()">
+
+ </div>
+
+    
+</div>
+<form name="f2" hidden=""method="post" action="abonnement.php">
+    <h1 ></h1>
+   <div class="txt">
+   <input type="text" name="tcin"  required>
+    <span></span>
+   <label>CIN:</label>
+    </div>
+   <div class="txt">
+   <input type="text" name="tfn" required>
+    <span></span>
+   <label>First Name:</label>
+    </div>
+   <div class="txt">
+   <input type="text" name="tln" required>
+    <span></span>
+   <label>Last Name:</label>
+    </div>
+    <div class="txt">
+   <input type="text" name="tph" required>
+    <span></span>
+   <label>Phone:</label>
+    </div>
+    <div class="txt">
+   <input type="text" name="tmat" required>
+    <span></span>
+   <label>Matricule:</label>
+    </div>
+    </div>
+        <input type="submit" value="Payer"name="cnx" onclick="payer()"> 
+         
+    </form>
+</form>
+</body>
+</html>
